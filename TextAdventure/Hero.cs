@@ -18,6 +18,7 @@ namespace TextAdventure
         public string Name { get; private set; }    //Creates Name property
         public Hero()   //Constructor for Hero
         {
+            Items.Add("wooden sword");
             do
             {
                 System.Console.WriteLine("Enter your name");
